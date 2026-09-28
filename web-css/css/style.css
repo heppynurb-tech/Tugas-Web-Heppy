@@ -1,6 +1,6 @@
 /* saya ingin membuat body berwarna abu-abu dan fontnya bertipe arial dan sans serif berukuran 16px */
 body { 
-    background-color: gray;
+    background-color: cornsilk;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
@@ -8,7 +8,7 @@ body {
 /* membuat canvas putih di tengah */
 .container {
     background-color: white;
-    margin: 0 auto;
+    margin: auto;
     width: 800px;
 }
 
@@ -47,4 +47,50 @@ body {
 .nav li a:hover {
     background-color: yellow;
     color: black;
+}
+
+/* untuk banner atau gambar pada web  */
+.banner {
+    height: 100%;
+    object-position: 0px;
+    width: 800px;
+    object-fit: cover;
+} 
+
+/* untuk isi atau tulisan di dalamnya */
+.isi {
+    padding: 20px;
+}
+
+.isi h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.isi .penulis {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.isi .penulis a {
+    text-decoration: none;
+    color: blue;
+}
+
+.isi p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* unutk footer  */
+.footer {
+    background-color: brown;
+    height: 50px;
+    padding: 2px;
+}
+
+.footer .copyright{
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
 }
